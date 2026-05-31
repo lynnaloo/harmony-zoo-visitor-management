@@ -1,0 +1,30 @@
+openapi: 3.0.3
+info:
+  title: Harmony City Zoo Park Alerts API
+  version: 1.0.0
+  description: Schema for real-time exhibit status alerts to be ingested into Data 360.
+components:
+  schemas:
+    Park_Alert:
+      type: object
+      required:
+        - Alert_ID
+        - Event_Time
+        - Exhibit_Name
+      properties:
+        Alert_ID:
+          type: string
+          description: Unique identifier for the alert event. Acts as the Primary Key.
+        Event_Time:
+          type: string
+          format: date-time
+          description: The exact timestamp the alert was generated. Acts as the Event Time field.
+        Exhibit_Name:
+          type: string
+          description: The name of the zoo exhibit (e.g., Lion Enclosure, Primate House).
+        Status:
+          type: string
+          description: The current status (e.g., Closed, Feeding Time, Open, Maintenance).
+        Message:
+          type: string
+          description: Contextual details for Agentforce to relay to the visitor.

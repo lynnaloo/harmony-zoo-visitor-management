@@ -1,0 +1,11 @@
+Ticket_Type__c,Purchase_Date__c,Expiration_Date__c,Status__c,Visitor_External_ID__c
+VIP Annual Pass,2025-06-15,2026-06-15,Active,V-1001
+Family Annual Pass,2025-08-01,2026-08-01,Active,V-1002
+Single Day General,2026-03-20,2026-03-20,Expired,V-1003
+Standard Annual Pass,2025-04-30,2026-04-30,Active,V-1004
+VIP Feeding Experience,2026-04-10,2026-04-10,Active,V-1005
+Single Day General,2026-03-29,2026-03-29,Active,V-1006
+Standard Annual Pass,2025-11-10,2026-11-10,Active,V-1007
+VIP Platinum Pass,2026-01-05,2027-01-05,Active,V-1008
+Standard Annual Pass,2025-05-15,2026-05-15,Active,V-1009
+Single Day General,2026-03-25,2026-03-25,Expired,V-1010
